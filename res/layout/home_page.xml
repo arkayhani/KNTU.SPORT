@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sportkntu12" android:contentDescription="TODO"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:text="@string/welcome2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#80FFFF" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_below="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:contentDescription="TODO">
+            
+                <ImageView
+        			android:id="@+id/imageView2"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			
+        			android:src="@drawable/ramezac" android:contentDescription="TODO"/>
+                 <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginBottom="20dp"
+        android:text="@string/imcup"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#80FFFF" />
+                
+                <ImageView
+        			android:id="@+id/imageView3"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			
+        			android:src="@drawable/salon" />
+               
+              <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginBottom="20dp"
+        android:text="@string/imhava"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#80FFFF" />
+                
+                 <ImageView
+        			android:id="@+id/imageView4"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			
+        			android:src="@drawable/ping_pong" />
+                   <TextView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginBottom="20dp"
+        android:text="@string/imten"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#80FFFF" />
+                 <ImageView
+        			android:id="@+id/imageView5"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			
+        			android:src="@drawable/dd" />
+                   <TextView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginBottom="20dp"
+        android:text="@string/imcham"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#80FFFF" />
+                 <ImageView
+        			android:id="@+id/imageView6"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			
+        			android:src="@drawable/olomc" />
+                   <TextView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/imolom"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#80FFFF" />
+                 <ImageView
+        			android:id="@+id/imageView7"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			
+        			android:src="@drawable/omranc" />
+                   <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginBottom="20dp"
+        android:text="@string/imomr"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#80FFFF" />
+                 
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
